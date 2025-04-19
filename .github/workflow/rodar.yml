@@ -2,7 +2,7 @@ name: teste execução automatica
 
 on:
   schedule:
-    - cron: '0 22 * * *'
+    - cron: '0 22 * * 6'
 
 jobs:
   run-python-script:
